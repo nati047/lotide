@@ -35,3 +35,4 @@ const results2 = takeUntil(data2, x => x === ',');
 console.log(results2);
 assertArraysEqual(results1, [1, 2, 5, 7, 2]);
 
+module.exports = takeUntil;
