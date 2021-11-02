@@ -4,3 +4,4 @@ const head = function(array){
   return value; 
 }
 module.exports = head;
+console.log(head(["Hello", "Lighthouse", "Labs"]));
